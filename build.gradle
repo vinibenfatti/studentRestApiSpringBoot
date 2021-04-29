@@ -7,6 +7,7 @@ plugins {
     id 'maven-publish'
     id 'org.springframework.boot' version '2.4.4'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'org.unbroken-dome.test-sets' version '3.0.1'
 }
 
 group = 'com.example'
@@ -55,6 +56,7 @@ dependencies {
     testImplementation 'io.rest-assured:xml-path:4.0.0'
 
     testImplementation 'com.googlecode.json-simple:json-simple:1.1.1'
+
 }
 
 group = 'com.example'
